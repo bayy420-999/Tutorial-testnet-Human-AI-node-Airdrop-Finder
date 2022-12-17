@@ -129,6 +129,7 @@
   > (Opsional) Ganti deskripsi node di bagian `--details`
 
 * Cek status validator
+
   Cek txhash tadi di [explorer](https://explorer.humans.zone/humans-testnet)
 
 ## Perintah berguna
