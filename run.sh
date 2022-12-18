@@ -30,10 +30,11 @@ rm -rf humans_latest_linux_amd64.tar.gz
 if [ ! $HUMAN_MONIKER ]; then
     read -p "Enter node name: " HUMAN_MONIKER
     echo 'export HUMAN_MONIKER='\"${HUMAN_MONIKER}\" >> $HOME/.bashrc
-    echo 'export HUMAN_CHAIN_ID=testnet-1' >> $HOME/.bashrc
+    echo 'export HUMAN_CHAIN_ID="testnet-1"' >> $HOME/.bashrc
 fi
 
 source $HOME/.bashrc
+
 if [ -d $HOME/.humans ]; then
     rm -rf $HOME/.humans
 fi
